@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://logging.apache.org/log4j/changelog"
+       xsi:schemaLocation="http://logging.apache.org/log4j/changelog https://logging.apache.org/log4j/changelog-0.1.3.xsd"
+       type="fixed">
+  <issue id="LOG4J2-219" link="https://issues.apache.org/jira/browse/LOG4J2-219"/>
+  <description format="asciidoc">Fix: install default root logger if not configured (this is unchanged),
+        but make sure to include configured named loggers. Clarified documentation.</description>
+</entry>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://logging.apache.org/log4j/changelog"
+       xsi:schemaLocation="http://logging.apache.org/log4j/changelog https://logging.apache.org/log4j/changelog-0.1.3.xsd"
+       type="fixed">
+  <issue id="LOG4J2-75" link="https://issues.apache.org/jira/browse/LOG4J2-75"/>
+  <description format="asciidoc">Enhanced Log4jContextListener to accept a configuration file location. Modified FileConfigurationMonitor
+        to monitor files configured that way. Fixed other reconfiguration related bugs. Tested in JBoss and
+        Tomcat.</description>
+</entry>
